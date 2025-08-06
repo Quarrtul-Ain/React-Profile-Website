@@ -1,0 +1,95 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, sans-serif;
+  background: #f9f9f9;
+  color: #333;
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.avatar {
+  width: 120px;
+  height: 120px;
+  border-radius: 60px;
+  margin-right: 20px;
+  object-fit: cover;
+}
+
+.intro h1 {
+  margin: 0;
+  font-size: 2.5rem;
+}
+
+.intro h3 {
+  margin: 5px 0 0;
+  color: #777;
+  font-weight: normal;
+}
+
+section {
+  margin-top: 40px;
+  background: #fff;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.skills-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.skill {
+  background: #005f99;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 20px;
+  font-size: 0.95rem;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+form button {
+  background: #005f99;
+  color: white;
+  padding: 12px 18px;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+form button:hover {
+  background: #004d7a;
+}
+
+.thank-you {
+  font-size: 1.1rem;
+  color: #005f99;
+}
+
+footer {
+  margin: 60px auto 20px;
+  text-align: center;
+  font-size: 0.9rem;
+  color: #777;
+}
